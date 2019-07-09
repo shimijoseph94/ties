@@ -3,6 +3,7 @@
    <Navbar></Navbar>
    <Navbar1></Navbar1>
     <router-view/>
+    <Footer></Footer>
   </div>
 </template>
 
