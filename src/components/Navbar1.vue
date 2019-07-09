@@ -7,10 +7,10 @@
           <b-collapse is-nav id="nav_collapse">
           
           <b-nav-item href="#" class="mx-auto"></b-nav-item>
-          <b-nav-item class="navt"  href="Home" ><strong><div style="color:#9ACD32!important;">HOME</div></strong></a></b-nav-item>
-         <b-nav-item  class="navvink"><router-link to="FAQ"><strong>RESOURCE CENTER</strong></router-link></b-nav-item>
-          <b-nav-item  class="navvink"><router-link to="News"><strong>SERVICES</strong></router-link></b-nav-item>
-          <b-nav-item  class="navvink"><router-link to="Aboutus"><strong>PARTNER WITH US</strong></router-link></b-nav-item>
+          <b-nav-item class="navt"  href="" ><strong><div style="color:#9ACD32!important;">HOME</div></strong></a></b-nav-item>
+         <b-nav-item  class="navvink"><router-link to="">RESOURCE CENTER</router-link></b-nav-item>
+          <b-nav-item  class="navvink"><router-link to="">SERVICES</router-link></b-nav-item>
+          <b-nav-item  class="navvink"><router-link to="">PARTNER WITH US</router-link></b-nav-item>
          
           <b-nav-item  class="navvink"> <router-link to="" id="button" style="color:#9ACD32!important;"><strong>DONATE</strong></router-link></b-nav-item>
          </b-collapse>
@@ -43,10 +43,7 @@
     .navt{
         color:green!important;
     }
-    .navvink{
-      color:black !important;
-      hover:black  !important;
-    }
+    
     .nav-item a{
       color:black  !important;
       hover:black  !important;
@@ -134,7 +131,5 @@
      background: rgba(255, 255, 255,0);
      font-size: 25px;
 }
-#button:hover {
-    
-}
+
     </style>

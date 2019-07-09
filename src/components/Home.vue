@@ -1,11 +1,14 @@
 <template>
  <div>
    <Carousel></Carousel>
+   <div>
+     
+   </div>
    <div class="ties1">
 
 
   <div class="container">
-    <div class="container">
+    <div class="container" >
         <div class="sqr" style="background-color:#9ACD32!important;">
             <div class="row">
               <div class="col-md-4">
@@ -19,7 +22,7 @@
                       </div>
             </div>
           </div>
-      <div  class="sqrr">
+      <div  class="sqrr" style="background-color: white!important;">
        <div class ="row">
          <div class="col-md-4" style="padding-top:20px;"><br>
 
@@ -186,7 +189,7 @@
   <div>
     <div class="row" style="padding-top:40px!important;padding-bottom: 30px!important;">
       <div class="col-md-4" >
-          <div class="card" style="width: 18rem;border-radius: 25px!important;">
+          <div class="card" style="width: 18rem;">
               <img class="card-img-top" src="../assets/news1.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title"></h5>
@@ -399,13 +402,19 @@ import Hooper from "./Hooper";
   }
   .sqr{
     border-radius: 25px;
+    
     padding-left:80px;
+    margin-top: -20px; /* Higher or lower number depending on how far up you want it to go */
+position: relative;
+z-index: 1;
+
   }
 .sqrr
 {
-     
-      
- border-radius:25px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
       text-decoration: none;
       color:black;
       background:white!important;
@@ -469,10 +478,6 @@ a {
   .spp{
     
     z-index: 1;
-  
-  
-
-
   }
   
 </style>

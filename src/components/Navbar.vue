@@ -2,19 +2,27 @@
     <div class="navv">
     <b-navbar  toggleable="lg" type="dark" variant="dark">
        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-       <a href="Home"><b-nav-text><h6 style="color:black;">home</h6></b-nav-text></a>
-       <a href="Home"><b-nav-text><h6 style="color:black;">home</h6></b-nav-text></a>
+       <a href="Home"><b-nav-text><h6 style="color:black;"></h6></b-nav-text></a>
+       <a href="Home"><b-nav-text><h6 style="color:black;"></h6></b-nav-text></a>
     
-        <a href="Home"><b-nav-text><h6 style="color:white;">+91-481-2503988 | tropicalinstitute@gmail.com</h6></b-nav-text></a>
+        <a href=""><b-nav-text><h6 style="color:white;padding-left:40px!important;">+91-481-2503988 | tropicalinstitute@gmail.com</h6></b-nav-text></a>
           <b-collapse is-nav id="nav_collapse">
           
           <b-nav-item href="#" class="mx-auto"></b-nav-item>
-          <!--<b-nav-item class="navvink"  href="Home"><strong>Home</strong></a></b-nav-item>
-         <b-nav-item  class="navvink"><router-link to="FAQ"><strong>FAQ</strong></router-link></b-nav-item>
-          <b-nav-item  class="navvink"><router-link to="News"><strong>News</strong></router-link></b-nav-item>
-          <b-nav-item  class="navvink"><router-link to="Aboutus"><strong>About Us</strong></router-link></b-nav-item>
-         
-          <b-nav-item  class="navvink"> <router-link to="Contactus"><strong>Contact Us</strong></router-link></b-nav-item>-->
+          <b-nav-item><a href="#">
+            <font-awesome-icon :icon="['fab', 'facebook-f']" style=" border-radius: 50%;  border: 1x solid grey;
+            padding:10px;  width:40px; height:40px;" size="1x" /></a> </b-nav-item>
+         <b-nav-item > <a href="#">
+          <font-awesome-icon :icon="['fab', 'instagram']" style=" border-radius: 40%;  border: 1x solid grey;
+        padding:10px; width:40px; height:40px;" size="1x" /></a> </b-nav-item>
+          <b-nav-item> <a href="#">
+            <font-awesome-icon :icon="['fab', 'twitter']" style=" border-radius: 50%;  border: 1x solid grey;
+       padding:10px;  width:40px; height:40px;" size="1x" /></a></b-nav-item>
+         <b-nav-item><a href="#">
+            <font-awesome-icon :icon="['fab', 'google']" style=" border-radius: 50%;  border: 1x solid grey;
+       padding:10px;  width:40px; height:40px;" size="1x" /></a></b-nav-item>
+        
+          
          </b-collapse>
          </b-navbar-nav toggleable="lg"> 
        <b-navbar-brand>
@@ -44,11 +52,11 @@
     }
     .navvink{
       color:black !important;
-      hover:black  !important;
+      
     }
     .nav-item a{
       color:black  !important;
-      hover:black  !important;
+   
     }
     a:hover{
       color:black  !important;
@@ -121,5 +129,37 @@
      a :hover{
         text-decoration: none !important;
     }
+    .fa-facebook-f {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+  }
     
     </style>

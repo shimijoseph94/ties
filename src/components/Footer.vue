@@ -12,7 +12,7 @@
               
                
                   <div class="input-group mb-3 ">
-                      <input type="text" class="form-control" placeholder="freebies@sales.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <input type="text" class="form-control" placeholder="tropicalinstitute@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
                       <div class="input-group-append">
                         <button class="si" type="button" style="color: white!important;background-color: tomato!important;">Subscribe</button>
                       </div>
@@ -39,7 +39,7 @@
                    
                 <p>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                    <a href="Home" style="font-weight:normal !important;padding-left:40px!important;">Home</a>
+                    <a href="Home" style="font-weight:normal !important;padding-left:40px!important;padding-top:40px!important;">Home</a>
                   </div>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
                     <router-link to="" style="font-weight:normal !important;padding-left:40px!important;">Resource Center</router-link>
@@ -67,19 +67,19 @@
                    
                             <p>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <a href="Home" style="font-weight:normal !important;padding-left:50px!important;">Facebook</a>
+                                <a href="Home" style="font-weight:normal !important;padding-left:50px!important;padding-top:40px!important;">Facebook</a>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
                                 <router-link to="" style="font-weight:normal !important;padding-left:50px!important;">Google</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <router-link to="Big4compo" style="font-weight:normal !important;padding-left:50px!important;">Twitter</router-link>
+                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;">Twitter</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <router-link to="ISRN" style="font-weight:normal !important;padding-left:50px!important;">Pintrest</router-link>
+                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;">Pintrest</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <router-link to="Downloads" style="font-weight:normal !important;padding-left:50px!important;">Linkedin</router-link>
+                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;">Linkedin</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
                                 <a href="" style="font-weight:normal !important; "target="_blank" ></a>
@@ -97,7 +97,7 @@
                   <input type="email" placeholder="Email">
                   <br>
                   <br>
-                  <textarea type="" placeholder="Message" style="padding-left:20px;"></textarea>
+                  <textarea type="" placeholder="Message" style="padding-left:20px!important;"></textarea>
                   <button class="buu">Submit</button>
               </form>
             </div>
@@ -106,9 +106,9 @@
           <!-- Copyright -->
           <div class="row" style="padding-top:20px!important; margin-left:50px!important;margin-right:50px!important;">
             <div class="col-md-6">
-              <div style="color:black!important;" class="footer-copyright text-center text-black-50 py-3">Content Copy Right- <a style="color:black!important;"
+             <!-- <div style="color:black!important;" class="footer-copyright text-center text-black-50 py-3">Content Copy Right- <a style="color:black!important;"
                   class="" href=""></a>
-              </div>
+              </div>-->
             </div>
             <div class="col-md-6">
               <div style="color:black!important;" class="footer-copyright text-center text-black-50 py-3">© 2019 Copyright: <a style="color:black!important;" class=""
