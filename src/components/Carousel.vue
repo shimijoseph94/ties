@@ -16,7 +16,7 @@
          
         img-src="http://ties.org.in/uploads/banner/20.JPG" 
       >
-      <div class="sqrr">
+     <!-- <div class="sqrr">
         <div class="row">
           <div class="col-md-4">
           <h4 style="padding-top:20px!important;padding-bottom:20px!important;">AIM</h4>
@@ -28,13 +28,13 @@
                   <h4 style="padding-top:20px!important;padding-bottom:20px!important;">VISION</h4>
                   </div>
         </div>
-      </div>
+      </div>-->
     </b-carousel-slide>
       <b-carousel-slide
         caption="Welcome to Tropical Institute of Ecological Sciences"
         img-src="http://ties.org.in/uploads/banner/18.jpg"
       >
-      <div class="sqrr" >
+      <!--<div class="sqrr" >
           <div class="row">
               <div class="col-md-4">
               <h4 style="padding-top:20px!important;padding-bottom:20px!important;" >AIM</h4>
@@ -46,13 +46,13 @@
                       <h4 style="padding-top:20px!important;padding-bottom:20px!important;">VISION</h4>
                       </div>
             </div>
-        </div>
+        </div>-->
     </b-carousel-slide>
       <b-carousel-slide
         caption="Welcome to Tropical Institute of Ecological Sciences"
         img-src="http://ties.org.in/uploads/banner/6.jpg"
       >
-      <div class="sqrr" >
+     <!-- <div class="sqrr" >
           <div class="row">
               <div class="col-md-4">
               <h4 style="padding-top:20px!important;padding-bottom:20px!important;">AIM</h4>
@@ -64,12 +64,12 @@
                       <h4 style="padding-top:20px!important;padding-bottom:20px!important;">VISION</h4>
                       </div>
             </div>
-        </div></b-carousel-slide>
+        </div>--></b-carousel-slide>
       <b-carousel-slide
       caption="Welcome to Tropical Institute of Ecological Sciences"
       img-src="http://ties.org.in/uploads/banner/17.jpg"
     >
-    <div class="sqrr" >
+    <!--<div class="sqrr" >
         <div class="row">
             <div class="col-md-4">
             <h4 style="padding-top:20px!important;padding-bottom:20px!important;">AIM</h4>
@@ -81,7 +81,7 @@
                     <h4 style="padding-top:20px!important;padding-bottom:20px!important;">VISION</h4>
                     </div>
           </div>
-      </div></b-carousel-slide>
+      </div>--></b-carousel-slide>
     </b-carousel>
   </div>
 </template>

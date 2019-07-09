@@ -28,7 +28,7 @@
             <div class="col-md-3">
                 <h5 style="color:black!important"><strong>Contacts</strong></h5>
                 <br>
-                <p style="color:black!important;text-align: left!important;padding-left:100px!important;">Ecological Research Campus, K.K Road, Vellor P.O Kottayam,Kerala-686501</p>
+                <p style="color:black!important;text-align: left!important;padding-left:100px!important;">Ecological Research Campus, K.K Road, Vellor P.O Kottayam,Kerala-686501(INDIA)</p>
               
       
             </div>

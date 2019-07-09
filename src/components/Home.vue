@@ -6,19 +6,36 @@
 
   <div class="container">
     <div class="container">
+        <div class="sqr" style="background-color:#9ACD32!important;">
+            <div class="row">
+              <div class="col-md-4">
+              <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;">AIM</h4>
+              </div>
+              <div class="col-md-3">
+                  <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;">MISSION</h4>
+                  </div>
+                  <div class="col-md-4">
+                      <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;">VISION</h4>
+                      </div>
+            </div>
+          </div>
       <div  class="sqrr">
        <div class ="row">
-         <div class="col-md-4"><br>
+         <div class="col-md-4" style="padding-top:20px;"><br>
+
             <div class="verticalLine">
+              
            <p style="color:black!important;text-align: justify!important;padding-left:70px!important;" >Ties is established mainly to promote education and research in the field of science to diffuse useful knowledge and also for initiating charitable works.</p>
-      </div>
+     
           </div>
-         <div class="col-md-4">
+          </div>
+         <div class="col-md-4"  style="padding-top:20px;">
            <br>
            <div class="verticalLine">
+              
             <p class="pp">To create an environmentally responsible community, through research, environmental education, capacity building and community participation.</p>
           </div></div>
-          <div class="col-md-4">
+          <div class="col-md-4"  style="padding-top:20px;">
             <br>
               <p class="pp" style="padding-right:70px!important;">TIES stand for Man and Nature through education and practice: a synergy of science, tradition and environment.</p>
             </div>
@@ -40,7 +57,8 @@
                   <b-card-img :src="require('../assets/cap1.png')" class="rounded-0"></b-card-img>
                 </b-col>
                 <b-col md="6">
-                  <b-card-body title="Community Development"  class="car" style="color:black!important;">
+                    <h6 style="color:black!important;padding-top:20px!important;"><strong>Community Development</strong></h6>
+                  <b-card-body>
                     <b-card-text class="cardd">
                      Sustainable development models to conserve natural resources are conceptualized and implemented with the active participation of communities and organisations
                     </b-card-text>
@@ -68,8 +86,9 @@
                   <b-card-img  :src="require('../assets/cap2.png')" class="rounded-0"></b-card-img>
                 </b-col>
                 <b-col md="6">
-                  <b-card-body title="Capacity Building"  class="cardd" style="color:black!important;">
-                    <b-card-text>Combining modern science and traditional Knowledge for sustainable lifestyles within communities while supporting income augmentation for a better quality of life.
+                    <h6 style="color:black!important;padding-top:20px!important;"><strong>Capacity Building</strong></h6>
+                  <b-card-body>
+                    <b-card-text class="cardd">Combining modern science and traditional Knowledge for sustainable lifestyles within communities while supporting income augmentation for a better quality of life.
                       
                     </b-card-text>
                    <div class="dropdown">
@@ -105,7 +124,7 @@
                  <b-card-img  :src="require('../assets/cap3.png')" class="rounded-0"></b-card-img>
                </b-col>
                <b-col md="6">
-                 <h6 style="color:black!important;"><strong>Environment Education & Outreach</strong></h6>
+                 <h6 style="color:black!important;padding-top:20px!important;"><strong>Environment Education & Outreach</strong></h6>
                  <b-card-body >
                    <b-card-text class="cardd">Enabling communities,essentially youth, to develop a deeper understanding of environmental challenges, engage in problem solving and make informed decisions.
                    </b-card-text>
@@ -133,8 +152,9 @@
                  <b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
                </b-col>
                <b-col md="6">
-                 <b-card-body title="Research & Development" class="cardd" style="color:black!important;">
-                   <b-card-text>Conducting research and developmental programs on environmental issues and providing high-quality studies on environment, sanitation and public health.
+                  <h6 style="color:black!important;padding-top:20px!important;"><strong>Research & Development</strong></h6>
+                 <b-card-body>
+                   <b-card-text class="cardd">Conducting research and developmental programs on environmental issues and providing high-quality studies on environment, sanitation and public health.
                      
                    </b-card-text>
                    <div class="dropdown">
@@ -172,7 +192,7 @@
                 <h5 class="card-title"></h5>
                 <h6 style="text-align: left!important;color:black!important;">4 July 2019</h6>
                 
-                <p class="card-text" style="text-align: left!important;">Collection which gift on which until accounts</p>
+                <p class="card-text"  style="text-align: left!important;">Collection which gift on which until accounts</p>
                <div style="text-align: left!important;"> <a href="#" style="color:blue!important;">Read more</a></div>
               </div>
             </div>
@@ -377,11 +397,15 @@ import Hooper from "./Hooper";
     padding-right: 10px!important;
     
   }
+  .sqr{
+    border-radius: 25px;
+    padding-left:80px;
+  }
 .sqrr
 {
      
       
-      border-radius: 25px;
+ border-radius:25px;
       text-decoration: none;
       color:black;
       background:white!important;
@@ -405,7 +429,7 @@ a {
  
 }
 .cardd{
-  font-weight:bold!important;
+  color:black;
   font-size:15px!important;
   text-align:justify!important;
 }
@@ -432,4 +456,23 @@ a {
 .car{
   font-size:10px;
 }
+.fa-instagram {
+    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+  }
+  .sdd{
+  
+    z-index: 2;
+  }
+  .spp{
+    
+    z-index: 1;
+  
+  
+
+
+  }
+  
 </style>
