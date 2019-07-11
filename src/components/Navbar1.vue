@@ -2,17 +2,17 @@
     <div class="navv">
     <b-navbar  toggleable="lg" type="light" variant="light">
        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-    <a href="Home">  <b-img :src="require('../assets/logoo.png')" ></b-img></a>
+    <a href="">  <b-img :src="require('../assets/logoo.png')" ></b-img></a>
         <!--<a href="Home"><b-nav-text><h4 style="color:black!important;">TIES</h4></b-nav-text></a>-->
           <b-collapse is-nav id="nav_collapse">
           
           <b-nav-item href="#" class="mx-auto"></b-nav-item>
-          <b-nav-item class="navt"  href="" ><strong><div style="color:#9ACD32!important;">HOME</div></strong></a></b-nav-item>
+          <b-nav-item class="navt"  href="" ><strong><div style="color:	#006400 !important;">HOME</div></strong></a></b-nav-item>
          <b-nav-item  class="navvink"><router-link to="">RESOURCE CENTER</router-link></b-nav-item>
           <b-nav-item  class="navvink"><router-link to="">SERVICES</router-link></b-nav-item>
           <b-nav-item  class="navvink"><router-link to="">PARTNER WITH US</router-link></b-nav-item>
          
-          <b-nav-item  class="navvink"> <router-link to="" id="button" style="color:#9ACD32!important;"><strong>DONATE</strong></router-link></b-nav-item>
+          <b-nav-item  class="navvink"> <router-link to="" id="button" style="color:#006400 !important;"><strong>DONATE</strong></router-link></b-nav-item>
          </b-collapse>
          </b-navbar-nav toggleable="lg"> 
        <b-navbar-brand>
@@ -126,7 +126,7 @@
      padding-left:10px;
      
      border:none;
-     border:solid 2px #9ACD32!important;
+     border:solid 2px 	#006400!important;
      border-radius: 5px;
      background: rgba(255, 255, 255,0);
      font-size: 25px;

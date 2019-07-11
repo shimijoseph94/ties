@@ -12,9 +12,9 @@
               
                
                   <div class="input-group mb-3 ">
-                      <input type="text" class="form-control" placeholder="tropicalinstitute@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <input type="text" class="form-control" placeholder="tropicalschool@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
                       <div class="input-group-append">
-                        <button class="si" type="button" style="color: white!important;background-color: tomato!important;">Subscribe</button>
+                        <router-link to="" class="squarebtn">Subscribe</router-link>
                       </div>
                     </div>
               </div>
@@ -26,33 +26,40 @@
               
           <div class="row" style="margin-left:50px!important;margin-right:50px!important;padding-top:20px!important;">
             <div class="col-md-3">
-                <h5 style="color:black!important"><strong>Contacts</strong></h5>
+                <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Contacts</strong></h5>
                 <br>
-                <p style="color:black!important;text-align: left!important;padding-left:100px!important;">Ecological Research Campus, K.K Road, Vellor P.O Kottayam,Kerala-686501(INDIA)</p>
-              
+                <p style="color:black!important;text-align: left!important;padding-left:100px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Ecological Research Campus, K.K Road, Vellor P.O Kottayam,Kerala-686501(INDIA)</p>
+              <p style="color:black!important;text-align: left!important;padding-left:100px!important;">Phone:  +91-481-2503988</p>
+              <p style="color:black!important;text-align: left!important;padding-left:100px!important;">Mobile: +91-9497290339</p>
       
             </div>
             <div class="col-md-3">
-                    <h5 style="color:black!important"><strong>Quick Links</strong></h5> 
+                    <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Quick Links</strong></h5> 
               <!-- Links -->
               <div class="alnew">
                    
                 <p>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                    <a href="Home" style="font-weight:normal !important;padding-left:40px!important;padding-top:40px!important;">Home</a>
+                      <router-link to="" style="font-weight:normal !important;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Home</router-link>
                   </div>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                    <router-link to="" style="font-weight:normal !important;padding-left:40px!important;">Resource Center</router-link>
+                    <router-link to="" style="font-weight:normal !important;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Resource Center</router-link>
                   </div>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                    <router-link to="Big4compo" style="font-weight:normal !important;padding-left:40px!important;">Services</router-link>
+                    <router-link to="" style="font-weight:normal !important;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Services</router-link>
                   </div>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                    <router-link to="ISRN" style="font-weight:normal !important;padding-left:40px!important;">Partner With Us</router-link>
+                    <router-link to="" style="font-weight:normal !important;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Partner With Us</router-link>
                   </div>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                    <router-link to="Downloads" style="font-weight:normal !important;padding-left:40px!important;">About Us</router-link>
+                    <router-link to="" style="font-weight:normal !important;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">About Us</router-link>
                   </div>
+                  <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
+                      <router-link to="" style="font-weight:normal !important;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">FAQ</router-link>
+                    </div>
+                    <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
+                        <router-link to="" style="font-weight:normal !important;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Financials</router-link>
+                      </div>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
                     <a href="" style="font-weight:normal !important; "target="_blank" ></a>
                   </div>
@@ -61,25 +68,25 @@
             </div>
          
             <div class="col-md-3">
-                    <h5 style="color:black!important"><strong>Follow Us</strong></h5>  
+                    <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Follow Us</strong></h5>  
                      
                     <div class="alnew">
                    
                             <p>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <a href="Home" style="font-weight:normal !important;padding-left:50px!important;padding-top:40px!important;">Facebook</a>
+                                  <router-link to="" style="font-weight:normal !important;padding-left:50px!important;padding-top:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Facebook</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;">Google</router-link>
+                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Google</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;">Twitter</router-link>
+                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Twitter</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;">Pintrest</router-link>
+                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Pintrest</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;">Linkedin</router-link>
+                                <router-link to="" style="font-weight:normal !important;padding-left:50px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Linkedin</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
                                 <a href="" style="font-weight:normal !important; "target="_blank" ></a>
@@ -88,9 +95,31 @@
                           </div>
             </div>
             <div class="col-md-3">
-                    <h5 style="color:black!important"><strong>Quick Contact</strong></h5>
-                    <br>   
-              <form style="padding-left:50px!important;">
+                    <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Quick Contact</strong></h5>
+                     
+                    <form style="padding-left:50px!important;" >
+              
+                      <div class="form-group" >
+                        <label for="exampleInputEmail1"></label>
+                        
+                        <input type="text" class="form-control" id="exampleInputEmail1" required="" aria-describedby="emailHelp" placeholder="Full Name">
+                        
+                       
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1"></label>
+                        <input type="email" class="form-control" id="exampleInputPassword1" required="" placeholder="Email" >
+                      </div>
+                      
+                            <div class="form-group">
+                                  <label for="exampleFormControlTextarea1"></label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" required="" rows="3" placeholder="Message" ></textarea>
+                                </div>
+                      <div class="text-left"><router-link to="" class="square_btn">Submit</router-link></div><br></form>
+                      
+                   
+                    </form>  
+              <!--<form style="padding-left:50px!important;">
                   <input type="text" placeholder="Full Name">
                   <br>
                   <br>
@@ -99,7 +128,7 @@
                   <br>
                   <textarea type="" placeholder="Message" style="padding-left:20px!important;"></textarea>
                   <button class="buu">Submit</button>
-              </form>
+              </form>-->
             </div>
           </div>
           <br>
@@ -253,6 +282,31 @@
     background: linear-gradient(#F17153, #F58D63, #f1ab53);
   }
 
-      
+  .square_btn
+  {
+      display: inline-block;
+      padding: 7px 20px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      text-decoration:none;
+      color: #FFF!important;
+      background: #9ACD32!important;
+      transition: .4s;
+  } 
+  .squarebtn
+  {
+      display: inline-block;
+      padding: 7px 20px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      text-decoration: none;
+      color: #FFF!important;
+      background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+      transition: .4s;
+  } 
       </style>
       

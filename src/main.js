@@ -27,6 +27,8 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 library.add(faTwitter)
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 library.add(faGoogle)
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+library.add(faYoutube)
 
 
 

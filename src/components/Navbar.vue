@@ -5,7 +5,7 @@
        <a href="Home"><b-nav-text><h6 style="color:black;"></h6></b-nav-text></a>
        <a href="Home"><b-nav-text><h6 style="color:black;"></h6></b-nav-text></a>
     
-        <a href=""><b-nav-text><h6 style="color:white;padding-left:40px!important;">+91-481-2503988 | tropicalinstitute@gmail.com</h6></b-nav-text></a>
+        <a href=""><b-nav-text><h6 style="color:white;padding-left:40px!important;">+91-481-2503988 | tropicalschool@gmail.com </h6></b-nav-text></a>
           <b-collapse is-nav id="nav_collapse">
           
           <b-nav-item href="#" class="mx-auto"></b-nav-item>
@@ -13,14 +13,14 @@
             <font-awesome-icon :icon="['fab', 'facebook-f']" style=" border-radius: 50%;  border: 1x solid grey;
             padding:10px;  width:40px; height:40px;" size="1x" /></a> </b-nav-item>
          <b-nav-item > <a href="#">
-          <font-awesome-icon :icon="['fab', 'instagram']" style=" border-radius: 40%;  border: 1x solid grey;
+          <font-awesome-icon :icon="['fab', 'youtube']" style=" border-radius: 40%;  border: 1x solid grey;
         padding:10px; width:40px; height:40px;" size="1x" /></a> </b-nav-item>
           <b-nav-item> <a href="#">
             <font-awesome-icon :icon="['fab', 'twitter']" style=" border-radius: 50%;  border: 1x solid grey;
        padding:10px;  width:40px; height:40px;" size="1x" /></a></b-nav-item>
-         <b-nav-item><a href="#">
-            <font-awesome-icon :icon="['fab', 'google']" style=" border-radius: 50%;  border: 1x solid grey;
-       padding:10px;  width:40px; height:40px;" size="1x" /></a></b-nav-item>
+         <b-nav-item><!--<a href="#">
+           <font-awesome-icon :icon="['fab', 'google']" style=" border-radius: 50%;  border: 1x solid grey;
+       padding:10px;  width:40px; height:40px;" size="1x" /></a>--></b-nav-item>
         
           
          </b-collapse>

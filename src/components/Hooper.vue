@@ -22,7 +22,7 @@
 
       <slide>
         <div class="col-md-12">
-            <img src="../assets/partner4.png">
+            <img src="../assets/pp.jpg" style="width:100%; height:auto;">
         </div>  
       </slide> 
 
