@@ -4,25 +4,10 @@
    <div>
      
    </div>
+   
+   
+  
    <div class="ties1">
-<!--<div class="container">
-  <div class="tt">
-    <div class="row">
-      <div class="col-md-4">
-        <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">AIM</h4>
-        <p >To create an environmentally responsible community, through research, environmental education, capacity building and community participation.</p>
-      </div> 
-      <div class="col-md-4">
-        <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">AIM</h4>
-        <p>To create an environmentally responsible community, through research, environmental education, capacity building and community participation.</p>
-      </div>
-      <div class="col-md-4">
-        <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">AIM</h4>
-        <p>To create an environmentally responsible community, through research, environmental education, capacity building and community participation.</p>
-      </div> 
-    </div>
-  </div>
-</div>-->
 
   <div class="container">
     <div class="container">
@@ -31,7 +16,7 @@
               <div class="col-md-4">
               <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">AIM</h4>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-4">
                   <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">MISSION</h4>
                   </div>
                   <div class="col-md-4">
@@ -45,19 +30,19 @@
 
             <div class="verticalLine">
               
-           <p style="color:black!important;text-align: justify!important;padding-left:70px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;" >Ties is established mainly to promote education and research in the field of science to diffuse useful knowledge and also for initiating charitable works.</p>
+           <p style="color:black!important;padding-left:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;" class="hp">To promote scientific education and research and empower communities. </p>
      
-          </div>
+          </div><div class="horizontal"></div>
           </div>
          <div class="col-md-4"  style="padding-top:20px;">
            <br>
-           <div class="verticalLine" style="height:140px!important;">
+           <div class="verticalLine" style="height:70px!important;">
               
-            <p class="pp" style="font-family:Verdana, Geneva, Tahoma, sans-serif!important;">To create an environmentally responsible community, through research, environmental education, capacity building and community participation.</p>
-          </div></div>
+            <p class="pp" style="font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Develop an environmentally sensitive and responsive community.</p>
+          </div><div class="horizontal"></div></div>
           <div class="col-md-4"  style="padding-top:20px;">
             <br>
-              <p class="pp" style="padding-right:70px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">TIES stand for Man and Nature through education and practice: a synergy of science, tradition and environment.</p>
+              <p class="pp" style="padding-right:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">A world where minds are tied to nature through a synergy of science, education and tradition.</p>
             </div>
        </div>
       </div>
@@ -71,30 +56,34 @@
        <div class="row" style="margin-top:10px !important;margin-bottom:30px !important;">
 
          <div class="col-md-6" style="padding-top:10px!important;padding-bottom:20px!important;">
-          
+         
             <b-card no-body class="overflow-hidden" style="max-width: 540px;border-radius: 25px!important;">
               <b-row no-gutters>
                 <b-col md="6">
-                  <b-card-img :src="require('../assets/cap2.png')" class="rounded-0"></b-card-img>
-                </b-col>
+                  <router-link to="Jalanidhi" style="text-decoration: none!important;"><b-card-img :src="require('../assets/cap2.png')" class="rounded-0"></b-card-img>
+              </router-link>  </b-col>
                 <b-col md="6">
-                    <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Community Development</strong></h6>
-                  <b-card-body>
+                  <router-link to="Jalanidhi" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Community Development</strong></h6></router-link>
+                  <b-card-body> <router-link to="Jalanidhi" style="text-decoration: none!important;">
                     <b-card-text class="cardd" style="font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Sustainable development models to conserve natural resources are conceptualized and implemented with the active participation of communities and organisations
-                    </b-card-text>
-                    <div class="dropdown">
-                      <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:blue!important;">
-                       Know More
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                       <!-- <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>-->
-                      </div>
-                    </div>
+                     
+                    </b-card-text></router-link> 
+                    <div>
+                      <select name="" style="color:blue!important;">
+                       <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
+                       <option value="">WASH</option>
+                       <option value="">Biodiversity Enhancement</option>
+                       <option value="">Eco-Tourism</option>
+                       <option value="">Indian Snakebite Initiative</option>
+                     </select>
+                     </div>
+                   <!-- <router-link to="Jalanidhi" style="color:blue!important;">Know more</router-link>-->
+                  
                   </b-card-body>
+                 
                 </b-col>
               </b-row>
+              
             </b-card>
           
        </div>
@@ -103,25 +92,24 @@
             <b-card no-body class="overflow-hidden" style="max-width: 540px;border-radius: 25px!important;">
               <b-row no-gutters>
                 <b-col md="6">
-                  <b-card-img  :src="require('../assets/cap2.png')" class="rounded-0"></b-card-img>
-                </b-col>
+                  <router-link to="" style="text-decoration: none!important;"> <b-card-img  :src="require('../assets/cap2.png')" class="rounded-0"></b-card-img>
+              </router-link>  </b-col>
                 <b-col md="6">
-                    <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Capacity Building</strong></h6>
-                  <b-card-body>
+                  <router-link to="" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Capacity Building</strong></h6></router-link>
+                  <b-card-body> <router-link to="J" style="text-decoration: none!important;">
                     <b-card-text class="cardd" style="font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Combining modern science and traditional Knowledge for sustainable lifestyles within communities while supporting income augmentation for a better quality of life.
                       
-                    </b-card-text>
-                   <div class="dropdown">
-                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:blue!important;">
-                         Know More
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <!--<a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>-->
-                        </div>
-                      </div>
+                    </b-card-text></router-link><br>
+                    <div>
+                      <select name="" style="color:blue!important;">
+                       <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
+                       <option value=""></option>
+                       <option value=""></option>
+                       <option value=""></option>
+                     </select>
+                     </div>
                   </b-card-body>
+                  
                 </b-col>
               </b-row>
             </b-card>
@@ -141,24 +129,22 @@
            <b-card no-body class="overflow-hidden" style="max-width: 540px;border-radius: 25px!important;">
              <b-row no-gutters>
                <b-col md="6">
-                 <b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
-               </b-col>
+                <router-link to="" style="text-decoration: none!important;"> <b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
+             </router-link>  </b-col>
                <b-col md="6">
-                 <h6 style="color:black!important;padding-top:10px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Environment Education & Outreach</strong></h6>
-                 <b-card-body >
+                <router-link to="" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:10px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Environment Education & Outreach</strong></h6></router-link>
+                 <b-card-body > <router-link to="" style="text-decoration: none!important;">
                    <div style="font-family:Verdana, Geneva, Tahoma, sans-serif!important; ">
                    <b-card-text class="cardd">Enabling communities,essentially youth, to develop a deeper understanding of environmental challenges, engage in problem solving and make informed decisions.
-                    </b-card-text></div>
-                   <div class="dropdown">
-                      <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:blue!important;">
-                       Know More
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                       <!-- <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>-->
-                      </div>
-                    </div>
+                    </b-card-text></div></router-link>
+                    <div><br>
+                      <select name="" style="color:blue!important;">
+                       <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
+                       <option value=""></option>
+                       <option value=""></option>
+                       <option value=""></option>
+                     </select>
+                     </div>
                  </b-card-body>
                </b-col>
              </b-row>
@@ -170,24 +156,22 @@
            <b-card no-body class="overflow-hidden" style="max-width: 540px;border-radius: 25px!important;">
              <b-row no-gutters>
                <b-col md="6">
-                 <b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
-               </b-col>
+                <router-link to="" style="text-decoration: none!important;"><b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
+              </router-link> </b-col>
                <b-col md="6">
-                  <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Research & Development</strong></h6>
-                 <b-card-body>
+                <router-link to="" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Research & Development</strong></h6></router-link>
+                 <b-card-body><router-link to="" style="text-decoration: none!important;"> 
                    <b-card-text class="cardd" style="font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Conducting research and developmental programs on environmental issues and providing high-quality studies on environment, sanitation and public health.
                      
-                   </b-card-text>
-                   <div class="dropdown">
-                      <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:blue!important;">
-                       Know More
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                       <!-- <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>-->
-                      </div>
-                    </div>
+                   </b-card-text></router-link>
+                   <div><br><br>
+                    <select name="" style="color:blue!important;">
+                     <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
+                     <option value=""></option>
+                     <option value=""></option>
+                     <option value=""></option>
+                   </select>
+                   </div>
                  </b-card-body>
                </b-col>
              </b-row>
@@ -507,13 +491,15 @@ import Hooper from "./Hooper";
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .pp{
-    text-align: justify!important;
+  
     color:black!important;
-    padding-left:10px!important;
-    padding-right: 10px!important;
+   
     
   }
-  
+  .tt{
+    color:blue;
+    border-radius: 25px;
+  }
   .sqr{
     border-radius: 25px;
     
@@ -534,10 +520,7 @@ z-index: 1;
       background:white!important;
       transition: .4s;
   }
-  .verticalLine {
-  border-right: thick solid #9ACD32!important;
-  padding-right:20px!important;
-}
+  
 a {
   color: #42b983;
 }
@@ -598,5 +581,84 @@ a {
     height:0px!important;
     
   }
-  
+  @media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ 
+  .horizontal{
+    border: 1px solid#9ACD32!important;
+        width: 320px;
+        height: 0px;
+  }
+}
+@media only screen   
+and (min-device-width : 481px)   
+and (max-device-width : 640px)  
+{ 
+  .horizontal{
+    border: 1px solid#9ACD32!important;
+        width: 500px;
+        height: 0px;
+  }
+}
+@media only screen   
+and (min-device-width : 640px)   
+and (max-device-width : 768px)  
+{ 
+  .horizontal{
+    border: 1px solid#9ACD32!important;
+        width: 500px;
+        height: 0px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .verticalLine{
+    border-right: thick solid #9ACD32!important;
+  padding-right:20px!important;
+  }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1500px) {
+  .verticalLine{
+    border-right: thick solid #9ACD32!important;
+  padding-right:20px!important;
+  }
+}
+@media only screen and (min-device-width: 1501px) and (max-device-width: 1700px) {
+  .verticalLine{
+    border-right: thick solid #9ACD32!important;
+  padding-right:20px!important;
+  }
+}
+@media only screen and (min-device-width: 1701px) and (max-device-width: 2000px) {
+  .verticalLine{
+    border-right: thick solid #9ACD32!important;
+  padding-right:20px!important;
+  }
+}
+
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ .hp{
+  padding-right:10px;
+}
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 </style>

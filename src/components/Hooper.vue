@@ -5,9 +5,14 @@
     
       <slide>
           <div class="col-md-12">
-             <img src="../assets/partner1.png">
+             <img src="../assets/partner1.png" style="width:100%;height:auto;" >
           </div>  
         </slide> 
+       <!--<slide>
+            <div class="col-md-12">
+               <img src="../assets/l1.jpg" style="width:250px; height:250px;">
+            </div>  
+          </slide> -->
     <slide>
       <div class="col-md-12">
         <img src="../assets/partner2.png">

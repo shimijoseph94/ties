@@ -26,20 +26,25 @@
               
           <div class="row" style="margin-left:50px!important;margin-right:50px!important;padding-top:20px!important;">
             <div class="col-md-3">
-                <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Contacts</strong></h5>
+               <!-- <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Contacts</strong></h5>-->
                 <br>
-                <p style="color:black!important;text-align: left!important;padding-left:100px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Ecological Research Campus, K.K Road, Vellor P.O Kottayam,Kerala-686501(INDIA)</p>
+                <p style="color:black!important;text-align: left!important;padding-left:100px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>CONTACTS</strong></p>
+                <p style="color:black!important;text-align: left!important;padding-left:100px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;padding-top:20px!important;">Ecological Research Campus, K.K Road, Vellor P.O Kottayam,Kerala-686501(INDIA)</p>
               <p style="color:black!important;text-align: left!important;padding-left:100px!important;">Phone:  +91-481-2503988</p>
               <p style="color:black!important;text-align: left!important;padding-left:100px!important;">Mobile: +91-9497290339</p>
       
             </div>
             <div class="col-md-3">
-                    <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Quick Links</strong></h5> 
+                   <!-- <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Quick Links</strong></h5> -->
               <!-- Links -->
               <div class="alnew">
                    
                 <p>
-                  <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
+                    <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px
+                        ;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>QUICK LINKS</strong>
+                    </div>
+                  
+                  <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;padding-top:20px!important;">
                       <router-link to="" style="font-weight:normal !important;padding-left:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Home</router-link>
                   </div>
                   <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
@@ -68,13 +73,16 @@
             </div>
          
             <div class="col-md-3">
-                    <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Follow Us</strong></h5>  
+                   <!-- <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Follow Us</strong></h5> --> 
                      
-                    <div class="alnew">
+                    <div>
                    
-                            <p>
-                              <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
-                                  <router-link to="" style="font-weight:normal !important;padding-left:50px!important;padding-top:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Facebook</router-link>
+                            <p class="mob">
+                                <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;
+                                  padding-left:50px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;" class="mob"><strong>FOLLOW US</strong>
+                                </div>
+                              <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;padding-top:20px!important;">
+                                  <router-link to="" style="font-weight:normal !important;padding-left:50px!important;padding-top:40px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;" class="mob">Facebook</router-link>
                               </div>
                               <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-bottom:10px;">
                                 <router-link to="" style="font-weight:normal !important;padding-left:50px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Google</router-link>
@@ -95,11 +103,13 @@
                           </div>
             </div>
             <div class="col-md-3">
-                    <h5 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Quick Contact</strong></h5>
+                   <!-- <h6 style="color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>QUICK CONTACT</strong></h6>-->
                      
-                    <form style="padding-left:50px!important;" >
-              
-                      <div class="form-group" >
+                    <form>
+                        <div style="color:black !important;font-weight:normal !important;text-align: justify;padding-top:20px;
+                        font-family:Verdana, Geneva, Tahoma, sans-serif!important;" class="mob"><strong>QUICK CONTACT</strong>
+                      </div>
+                      <div class="form-group" style="padding-top:20px!important;" >
                         <label for="exampleInputEmail1"></label>
                         
                         <input type="text" class="form-control" id="exampleInputEmail1" required="" aria-describedby="emailHelp" placeholder="Full Name">
@@ -308,5 +318,13 @@
       background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
       transition: .4s;
   } 
+  @media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ 
+  .mob{
+   padding-left:80px!important;
+  }
+}
       </style>
       
