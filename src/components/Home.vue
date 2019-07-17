@@ -11,7 +11,7 @@
 
   <div class="container">
     <div class="container">
-        <div class="sqr" style="background-color:#9ACD32!important;">
+        <div class="sqr">
             <div class="row">
               <div class="col-md-4">
               <h4 style="padding-top:20px!important;padding-bottom:20px!important;color:black!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">AIM</h4>
@@ -464,6 +464,9 @@
 <!--ties5-->
 <div class="container" style="padding-top:60px!important;padding-bottom:50px!important;">
   <h3 style="color:black!important;text-align:center!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Our Partners</h3>
+  <br>
+  <br>
+  <br>
   <Hooper></Hooper>
 </div>
 <!--ties5-->
@@ -502,8 +505,10 @@ import Hooper from "./Hooper";
   }
   .sqr{
     border-radius: 25px;
-    
-    
+    background-color: #84fb95;
+
+    background-color: #84fb95;
+background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%); 
     margin-top: -27px; /* Higher or lower number depending on how far up you want it to go */
 position: relative;
 z-index: 1;
@@ -519,13 +524,15 @@ z-index: 1;
       color:black;
       background:white!important;
       transition: .4s;
+      
   }
   
 a {
   color: #42b983;
 }
 .ties1{
-  background-color: #9ACD32!important;
+  background-color: #84fb95;
+background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%); 
 }
 .bor {
   border-style: solid;

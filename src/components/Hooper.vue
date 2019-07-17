@@ -1,13 +1,9 @@
 <template>
 
 <div>
-  <hooper :infiniteScroll="true" :itemsToShow="4"   :progress="true" :autoPlay="true" :playSpeed="8000">
+  <hooper :infiniteScroll="true" :itemsToShow="4"   :progress="true" :autoPlay="true" :playSpeed="5000" :settings="hooperSettings">
     
-      <slide>
-          <div class="col-md-12">
-             <img src="../assets/partner1.png" style="width:100%;height:auto;" >
-          </div>  
-        </slide> 
+     
        <!--<slide>
             <div class="col-md-12">
                <img src="../assets/l1.jpg" style="width:250px; height:250px;">
@@ -18,8 +14,10 @@
         <img src="../assets/partner2.png">
       </div>  
     </slide> 
+     
    
-      <slide>
+  
+   <slide>
         <div class="col-md-12">
             <img src="../assets/partner3.png">
         </div>  
@@ -30,6 +28,103 @@
             <img src="../assets/pp.jpg" style="width:100%; height:auto;">
         </div>  
       </slide> 
+      <slide>
+        <div class="col-md-12">
+            <img src="../assets/l18.png" style="width:100%; height:auto;">
+        </div>  
+      </slide> 
+      
+  <slide>
+    <div class="col-md-12">
+      <img src="../assets/l16.png" style="width:100%; height:auto;">
+  </div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l20.png" style="width:100%; height:auto;">
+</div>  
+</slide>
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l21.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l22.png" style="width:100%; height:auto;">
+</div>  
+</slide>
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l10.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+
+
+
+
+  <div class="col-md-12">
+    <img src="../assets/l2.gif" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l8.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l9.jpg" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l11.jpg" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l12.jpg" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l13.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l16.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l17.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l18.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l7.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l19.png" style="width:100%; height:auto;">
+</div>  
+</slide> 
+<slide>
+  <div class="col-md-12">
+    <img src="../assets/l15.jpg" style="width:100%; height:auto;">
+</div> 
+ </slide>
+
 
     
 <hooper-navigation slot="hooper-addons" style="padding-left:80px!important;"></hooper-navigation>
@@ -50,93 +145,52 @@
     Slide,
     HooperNavigation
   },
+  data() {
+    return {
+      hooperSettings: {
+        itemsToShow: 2,
+        centerMode: true,
+        breakpoints: {
+          800: {
+            centerMode: false,
+            itemsToShow: 3
+          },
+          1000: {
+            itemsToShow: 5,
+            pagination: 'fraction'
+          }
+        }
+      }
+    };
+  }
+
  }
 </script>
 <style>
-.bgt{
-  height:auto;
-  width:auto;
- 
-}
-@media (min-width: 576px) {
-.hooper{
-    position: relative;
-    
-    width: auto;
-    height: auto !important; 
-}
-}
 
 @media (min-width:375px) {
-
-.bgt{
-  height:auto;
-  width:300px;
- 
-}
-}
-@media (min-width:375px) {
 .hooper{
-    position: relative;
     
-    width: auto;
-    height: auto; 
-}
-}
-@media (min-width:1281px) {
-.hooper{
-    position: relative;
     
-    width: auto;
+    width: 100%;
     height: auto; 
 }
 }
-@media (min-width:1441px) {
-.hooper{
-    position: relative;
-   
-    width: auto;
-    height: auto; 
-}
-}
-@media (min-width:1025px) {
-.hooper{
-    position: relative;
-  
-    width: auto;
-    height: auto; 
-}
-}
-@media (min-width:768px) {
-.hooper{
-    position: relative;
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ 
+  .hooper{
     
-    width: auto;
-    height: auto; 
-}
-}
-@media (min-width:320px) {
-.hooper{
-    position: relative;
     
-    width: auto;
+    width: 100%;
     height: auto; 
-}
-}
-
-h1, h2 {
-  font-weight: normal;
-}
-@media (min-width:1441px) {
-.bgt{
-  height:auto;
-  width:auto; 
 }
 }
 
 a{
   color:black!important;
-  font-weight:bold!important;
+  
 }
 .bk{
   background-color:grey;

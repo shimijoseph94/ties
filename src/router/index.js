@@ -7,6 +7,11 @@ import RiverConservation from '@/components/RiverConservation'
 import RiverRelinking from '@/components/RiverRelinking'
 import PondRejuvenation from '@/components/PondRejuvenation'
 import Domesticsolidwaste from '@/components/Domesticsolidwaste'
+import Corporate from '@/components/Corporate'
+import IndividualPartnership from '@/components/IndividualPartnership'
+import Internship from '@/components/Internship'
+import Volunteer from '@/components/Volunteer'
+import Jobs from '@/components/Jobs'
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +45,31 @@ export default new Router({
       path: '/Domesticsolidwaste',
       name: 'Domesticsolidwaste',
       component:Domesticsolidwaste
+    },
+    {
+      path: '/Corporate',
+      name: 'Corporate',
+      component:Corporate
+    },
+    {
+      path: '/IndividualPartnership',
+      name: 'IndividualPartnership',
+      component:IndividualPartnership
+    },
+    {
+      path: '/Internship',
+      name: 'Internship',
+      component:Internship
+    },
+    {
+      path: '/Volunteer',
+      name: 'Volunteer',
+      component:Volunteer
+    },
+    {
+      path: '/Jobs',
+      name: 'Jobs',
+      component:Jobs
     },
 
   ]

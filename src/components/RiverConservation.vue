@@ -47,9 +47,42 @@
             <p class="para" style="padding-left:30px!important;">•  During the first year river bank schools were selected for preparing biodiversity register by biodiversity survey, exploring river and riparian biodiversity; cleaning drive; planting of bamboos and releasing fingerlings of native fish species; and also awareness programmes (street plays, river walks, rallies, etc.) my river my life – get list of schools.</p>
             <p class="para" style="padding-left:30px!important;">•  During the second year awareness programmes for community groups; river bank protection activities like planting of trees, cleaning drive; rain water harvesting pits; and waste management provisions in households in order to curb pollution of river like compost pit and soak pit in 50 houses.</p>
             <p class="para" style="padding-left:30px!important;">•  During the third year, extended its activities to the watershed area of the river and restored one rivulet of the river (Thalikathodu) which is a tributary of the Chalakudypuzha and also a seminar on post-flood ecological scenario in Kerala with respect to Chalakudy River was conducted.</p>
+            <b-carousel
+            id="carousel-1"
+             v-model="slide"
+             :interval="4000"
+             controls
+             indicators
+             background="#ababab"
+             img-width="1024"
+             img-height="480"
+             style="text-shadow: 0px 0px 2px #000"
+             fade
+             indicators
+             @sliding-start="onSlideStart"
+             @sliding-end="onSlideEnd"
+           >
+             <b-carousel-slide  img-src :img-src="require('../assets/River Conservation1.jpg')">
+               <h1>River Conservation - Algal Bloom due to industrial effluents</h1>
+             </b-carousel-slide>
+       
+            <b-carousel-slide img-src :img-src="require('../assets/river1.jpg')">
+               <h1>River Conservation - Algae at Karimpukayam check dam</h1>
+             </b-carousel-slide>
+       
+              <b-carousel-slide  img-src :img-src="require('../assets/river2.jpg')">
+               <h1>River Conservation - Water Quality Testing in the Manimala River</h1>
+             </b-carousel-slide>
+  
+            
+              <h1></h1>
+            </b-carousel-slide>
+             
+            
+            </b-carousel> 
           </div>
   
-        
+         
             
                     
           <div class="col-md-4" style="padding-top:30px!important;">
@@ -77,13 +110,19 @@
                 <p style="text-align: left!important;padding-left:20px!important;"> <router-link to="" class="sqbtn" style="padding-left:70px!important;padding-right:30px!important;padding-bottom:15px!important;padding-top:15px!important;text-decoration:none;" ><strong>Research & Development</strong></router-link></p>
             </div></div>
             </div>
-  
-        </div><br>
+           
+                              
+        </div>
+      
+        <br>
     </div>
   </template>
+ 
   <script>
+   
     export default {
   name: "Jalanidhi",
+ 
   data() {
     return {
         seen1:false,

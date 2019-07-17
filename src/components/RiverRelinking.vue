@@ -49,11 +49,47 @@
         </p>
         <p class="para">The project began at Elipulikkattukadavu and has restored around 156 km of rivulets and streams. Almost 55 rivulets were restored as part of this. The Meenachil-Meenathara-Kodur river complex still has more than 3000 small streams and rivulets that have been killed by neglect. Reviving these areas would give a new lease of life to many acres of farmlands. These areas are being mapped and the community engaged with in preparation for similar projects.</p> 
 
+<br>
+<b-carousel
+id="carousel-1"
+ v-model="slide"
+ :interval="4000"
+ controls
+ indicators
+ background="#ababab"
+ img-width="1024"
+ img-height="480"
+ style="text-shadow: 0px 0px 2px #000"
+ fade
+ indicators
+ @sliding-start="onSlideStart"
+ @sliding-end="onSlideEnd"
+>
+ <b-carousel-slide  img-src :img-src="require('../assets/RiverRelink1.png')">
+   <h1>Boating on the Meenanthara at Elipulikkattukadavu</h1>
+ </b-carousel-slide>
 
+<!--<b-carousel-slide img-src :img-src="require('../assets/RiverRelink2.png')">
+   <h1>Meenachil-Meenanthara-Kudoor Relinkink Map</h1>
+ </b-carousel-slide>-->
+
+  <b-carousel-slide  img-src :img-src="require('../assets/RiverRelink3.png')">
+   <h1>Padiyarakkadavu Inland Waterway</h1>
+ </b-carousel-slide>
+ <b-carousel-slide  img-src :img-src="require('../assets/RiverRelink4.png')">
+  <h1>Kanjikuzhy Canal</h1>
+</b-carousel-slide>
+
+
+  <h1></h1>
+</b-carousel-slide>
+ 
+
+</b-carousel> 
         
           </div>
 
-      
+       
           
                   
           <div class="col-md-4" style="padding-top:30px!important;">
