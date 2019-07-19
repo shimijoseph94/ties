@@ -1,12 +1,15 @@
 <template>
-    <div class="navv">
-    <b-navbar  toggleable="lg" type="dark" variant="dark">
+    <div class="navv" style="background-color: black!important;">
+    <b-navbar  toggleable="lg" type="dark" variant="dark" style="background-color: black!important;">
        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
        <a href="Home"><b-nav-text><h6 style="color:black;"></h6></b-nav-text></a>
        <a href="Home"><b-nav-text><h6 style="color:black;"></h6></b-nav-text></a>
-    
-        <a href=""><b-nav-text><h6 style="color:white;padding-left:40px!important;">+91-481-2503988 | tropicalschool@gmail.com </h6></b-nav-text></a>
-          <b-collapse is-nav id="nav_collapse">
+         <b-img :src="require('../assets/ph1.png')" style=" width:50px; height:auto;text-align: center!important;padding-bottom:10px;"></b-img>
+        <a href=""><b-nav-text><h6 style="color:white;">+91-481-2503988     </h6></b-nav-text></a>
+        <a href=""><b-nav-text><h6 style="color:white;padding-left:20px!important;">   | </h6></b-nav-text></a>
+        <b-img :src="require('../assets/mail.png')" style=" width:50px; height:auto;text-align: center!important;padding-bottom:10px;padding-left:20px!important;"></b-img>
+        <a href=""><b-nav-text><h6 style="color:white;padding-left:10px!important;">tropicalschool@gmail.com</h6></b-nav-text></a>
+        <b-collapse is-nav id="nav_collapse">
           
           <b-nav-item href="#" class="mx-auto"></b-nav-item>
           <b-nav-item><a href="#">
@@ -39,9 +42,7 @@
     </script>
     
     <style>
-    .bg-dark{
-     background-color:black!important;
-    }
+      
     .navbar .nav-text .h3{
       text-align:center;
     }

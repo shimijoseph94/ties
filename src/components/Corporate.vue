@@ -4,7 +4,12 @@
             <h2 style="color: white!important;text-align: center!important;padding-top:20px!important;"><strong>Partner with Us</strong></h2>
            <br>
             <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
-                <div class="col-md-3">
+              <div class="col-md-1">
+                <div class="verticalLine"> 
+                    <router-link to="Corporate" style="text-decoration: none!important;">
+          <h4 style="color:white!important;"></h4></router-link></div>  
+        </div>
+                <div class="col-md-2">
                         <div class="verticalLine"> 
                             <router-link to="Corporate" style="text-decoration: none!important;">
                   <h4 style="color:white!important;">Corporates</h4></router-link></div>  
@@ -14,7 +19,7 @@
                             <router-link to="IndividualPartnership" style="text-decoration: none!important;">
                         <h4 style="color:white!important;">Individuals</h4></router-link>
                   </div>  </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                             <div class="verticalLine">
                                     <router-link to="Internship" style="text-decoration: none!important;">
                             <h4 style="color:white!important;">Internships</h4></router-link></div>
@@ -24,10 +29,11 @@
                                         <router-link to="Volunteer" style="text-decoration: none!important;">
                                 <h4 style="color:white!important;">Volunteer</h4></router-link></div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-1">
                                     <router-link to="Jobs" style="text-decoration: none!important;">
                                 <h4 style="color:white!important;">Jobs</h4></router-link>
                             </div>
+                            
             </div>
         </div>
         <!--2nd section-->
@@ -56,13 +62,13 @@
                             <br><br><br>
     <div class="row">
      <div class="col-md-6">
-         <p style="text-align:left!important;">
-     <a href=""  class="sqbt" style="color: white!important;">Download CSR Brochure</a></p>
+         <p style="text-align:left!important;text-decoration:none!important;">
+     <a href=""  class="sqbt" style="color: white!important;text-decoration: none!important;">Download CSR Brochure</a></p>
            </div>
 
            <div class="col-md-6">
-                <p style="text-align:right!important;">
-                <a href=""  class="sqbt" style="color: white!important;">More information on Partnerships
+                <p style="text-decoration: none!important;">
+                <a href=""  class="sqbt" style="color: white!important;text-decoration: none!important;">More information on Partnerships
                         Link to Google Form – TIES Partnerships
                         </a></p>
                       </div></div>

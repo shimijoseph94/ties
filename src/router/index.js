@@ -12,6 +12,11 @@ import IndividualPartnership from '@/components/IndividualPartnership'
 import Internship from '@/components/Internship'
 import Volunteer from '@/components/Volunteer'
 import Jobs from '@/components/Jobs'
+import Donate from '@/components/Donate'
+import Services from '@/components/Services'
+import Watersampleanalysis from '@/components/Watersampleanalysis'
+import AntimicrobialTests from '@/components/AntimicrobialTests'
+
 Vue.use(Router)
 
 export default new Router({
@@ -71,6 +76,31 @@ export default new Router({
       name: 'Jobs',
       component:Jobs
     },
+    {
+      path: '/Donate',
+      name: 'Donate',
+      component:Donate,
+      props:true
+    },
+    {
+      path: '/Services',
+      name: 'Services',
+      component:Services,
+      
+    },
+    {
+      path: '/Watersampleanalysis',
+      name: 'Watersampleanalysis',
+      component:Watersampleanalysis,
+    
+    },
+    {
+      path: '/AntimicrobialTests',
+      name: 'AntimicrobialTests',
+      component:AntimicrobialTests,
+    
+    },
+    
 
   ]
 })

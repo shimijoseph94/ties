@@ -71,10 +71,10 @@
                     <div>
                       <select name="" style="color:blue!important;">
                        <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
-                       <option value="">WASH</option>
-                       <option value="">Biodiversity Enhancement</option>
-                       <option value="">Eco-Tourism</option>
-                       <option value="">Indian Snakebite Initiative</option>
+                       <option value="">1. WASH</option>
+                       <option value="">2. Biodiversity Enhancement</option>
+                       <option value="">3. Eco-Tourism</option>
+                       <option value="">4. Indian Snakebite Initiative</option>
                      </select>
                      </div>
                    <!-- <router-link to="Jalanidhi" style="color:blue!important;">Know more</router-link>-->
@@ -96,16 +96,24 @@
               </router-link>  </b-col>
                 <b-col md="6">
                   <router-link to="" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Capacity Building</strong></h6></router-link>
-                  <b-card-body> <router-link to="J" style="text-decoration: none!important;">
+                  <b-card-body> <router-link to="" style="text-decoration: none!important;">
                     <b-card-text class="cardd" style="font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Combining modern science and traditional Knowledge for sustainable lifestyles within communities while supporting income augmentation for a better quality of life.
                       
                     </b-card-text></router-link><br>
                     <div>
                       <select name="" style="color:blue!important;">
                        <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
-                       <option value=""></option>
-                       <option value=""></option>
-                       <option value=""></option>
+                       <option value="">1. Mushroom Farming </option>
+                       <option value="">2. Organic Farming</option>
+                       <option value="">3. Natural or Homestead</option>
+                       <option value="">   Farming</option>
+                       <option value="">4. Balcony Gardens</option>
+                       <option value="">5. Apiculture</option>
+                       <option value="">6. Statistical Design </option>
+                       <option value="">for Researchers</option>
+                       <option value="">SPSS Training</option>
+                       
+                       
                      </select>
                      </div>
                   </b-card-body>
@@ -140,9 +148,17 @@
                     <div><br>
                       <select name="" style="color:blue!important;">
                        <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
-                       <option value=""></option>
-                       <option value=""></option>
-                       <option value=""></option>
+                      <!-- <option value="">1. TIES Research Training </option>
+                       <option value="">Programme (TRTP)</option>
+                       <option value="">2. College-NGO </option>
+                       <option value="">Partnership Initiative (CNPI)</option>
+                       <option value="">3. Junior Naturalist Course</option>
+                       <option value="">(JNC)</option>
+                       <option value="">4. Enjoy Learning,
+                        </option>
+                        <option value="">Enjoy Teaching, Enjoy Life
+                          </option>-->
+                          
                      </select>
                      </div>
                  </b-card-body>
@@ -167,9 +183,28 @@
                    <div><br><br>
                     <select name="" style="color:blue!important;">
                      <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
-                     <option value=""></option>
-                     <option value=""></option>
-                     <option value=""></option>
+                    <!--<option value="">1. River auditing</option>
+                     <option value="">2. Biodiversity surveys
+                      </option>
+                     <option value="">3. Community biodiversity
+                      </option>
+                     <option value="">registers</option>
+                     <option value="">4. Distribution and
+                      </option>
+                      <option value="">Conservation 
+                        </option>
+                     <option value="">Status Assessments</option>
+                     <option value="">5. Public health
+                      </option>
+                     <option value="">6. Forest Resource </option>
+                     <option value="">Mapping and </option>
+                     <option value="">Forest Management </option>
+                     <option value="">Studies</option>
+                     <option value="">7. Environmental Toxicology
+                      </option>
+                      <option value="">8. Green Audit
+                        </option>-->
+
                    </select>
                    </div>
                  </b-card-body>

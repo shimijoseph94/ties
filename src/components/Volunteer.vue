@@ -4,31 +4,37 @@
             <h2 style="color: white!important;text-align: center!important;padding-top:20px!important;"><strong>Partner with Us</strong></h2>
            <br>
            <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
-                <div class="col-md-3">
-                        <div class="verticalLine">
-                            <router-link to="Corporate" style="text-decoration: none!important;">
-                  <h4 style="color:white!important;">Corporates</h4></router-link></div>  
-                </div>
-                <div class="col-md-2">
-                    <div class="verticalLine">
-                            <router-link to="IndividualPartnership" style="text-decoration: none!important;">
-                        <h4 style="color:white!important;">Individuals</h4></router-link>
-                  </div>  </div>
-                    <div class="col-md-3">
-                            <div class="verticalLine">
-                                    <router-link to="Internship" style="text-decoration: none!important;">
-                            <h4 style="color:white!important;">Internships</h4></router-link></div>
-                        </div>
-                        <div class="col-md-2">
-                                <div class="verticalLine">
-                                        <router-link to="Volunteer" style="text-decoration: none!important;">
-                                <h4 style="color:white!important;">Volunteer</h4></router-link></div>
-                            </div>
-                            <div class="col-md-2">
-                                    <router-link to="Jobs" style="text-decoration: none!important;">
-                                <h4 style="color:white!important;">Jobs</h4></router-link>
-                            </div>
-            </div>
+            <div class="col-md-1">
+              <div class="verticalLine"> 
+                  <router-link to="Corporate" style="text-decoration: none!important;">
+        <h4 style="color:white!important;"></h4></router-link></div>  
+      </div>
+              <div class="col-md-2">
+                      <div class="verticalLine"> 
+                          <router-link to="Corporate" style="text-decoration: none!important;">
+                <h4 style="color:white!important;">Corporates</h4></router-link></div>  
+              </div>
+              <div class="col-md-2">
+                  <div class="verticalLine">
+                          <router-link to="IndividualPartnership" style="text-decoration: none!important;">
+                      <h4 style="color:white!important;">Individuals</h4></router-link>
+                </div>  </div>
+                  <div class="col-md-2">
+                          <div class="verticalLine">
+                                  <router-link to="Internship" style="text-decoration: none!important;">
+                          <h4 style="color:white!important;">Internships</h4></router-link></div>
+                      </div>
+                      <div class="col-md-2">
+                              <div class="verticalLine">
+                                      <router-link to="Volunteer" style="text-decoration: none!important;">
+                              <h4 style="color:white!important;">Volunteer</h4></router-link></div>
+                          </div>
+                          <div class="col-md-1">
+                                  <router-link to="Jobs" style="text-decoration: none!important;">
+                              <h4 style="color:white!important;">Jobs</h4></router-link>
+                          </div>
+                          
+          </div>
         </div>
         <!--2nd section-->
         <div class="container">
@@ -48,9 +54,7 @@
                 </p>
             <br>
              
-             
-   
-                        </div>
+             </div>
 
         
             
