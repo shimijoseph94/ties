@@ -11,7 +11,7 @@
               </div>
               <div class="col-md-3">
                   <div class="verticalLine">
-                    <router-link to="ThematicGardens" style="color:white!important;text-decoration: none!important;"> <h4 style="color:white!important;">Biodiversity Enhancement</h4></router-link>
+                     <router-link to="ThematicGardens" style="color:white!important;text-decoration: none!important;"> <h4 style="color:white!important;">Biodiversity Enhancement</h4></router-link>
                 </div> <br> <div class="horizontal" ></div><br>
                </div>
                   <div class="col-md-2">
@@ -31,36 +31,37 @@
                     
             <div class="col-md-8" style="padding-top:30px!important;">
         
-            <h4 style="color:black!important;text-align:left!important;"><strong>WASH- Water, Sanitation & Hygiene</strong></h4>
+            <h4 style="color:black!important;text-align:left!important;"><strong>Biodiversity Enhancement</strong></h4>
             <br>
            <!-- <p style="text-align:left!important;">
            <img src="../assets/River Conservation.jpg" style="width:100% ;height:auto;"></p>-->
             <br>
-            <h5 style="color:black!important;text-align: left!important;"><strong>POND REJUVENATION</strong></h5>
-            <p class="para">Conservation of ponds is the best solution for problems of the water scarcity and groundwater depletion in the community. Each of the ponds is rejuvenated to cater specific community needs such as recharging neighboring water sources, community water education centre, boating, swimming, direct domestic use, etc.</p>
-            <p class="para" style="padding-left:30px!important;">• Peringamkulam pond, Kodakara Panchayat as wayside leisure point and community water education centre.</p>
-            <p class="para" style="padding-left:30px!important;">• Marathampally pond, Kodakkara Panchayat as a source for bathing, swimming, recharging neighbouring water resources etc. </p>
-            <p class="para" style="padding-left:30px!important;">• Kothakulam pond, Puliparakunnu, Kodakara Panchayat as a geologically pivotal water storage that supports 3-4 neighbouring ponds during summer.</p>
-            <p class="para" style="padding-left:30px!important;">• Kallamkulam pond, Perambra, Kodakara Panchayat provides water for household use for 100+ households.</p>
-            <p class="para" style="padding-left:30px!important;">• Therikulam pond, Kalamassery Muncipality as a community bathing and swimming resource.</p>
+            <h5 style="color:black!important;text-align: left!important;"><strong>Pachappu</strong></h5>
+            <p class="para">Loreum ipsum Loreum ipsum Loreum ipsum Loreum ipsum Loreum ipsums Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesuada.</p>
+            
         </div>
   
         
         <div class="col-md-4" style="padding-top:30px!important;">
                 <div class="card sidebar" style=" padding-left:10px!important;padding-right:10px!important;padding-top:20px!important;">
              <h4 style="color:black!important;text-align: left!important;padding-left:20px!important;"><strong>Projects</strong></h4><br>
-            <router-link to ="Jalanidhi" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>1. Jalanidhi -Rural drinking water and sanitation</strong></h6></router-link>
+            <router-link to ="ThematicGardens" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>1. Thematic Gardens</strong></h6></router-link>
             <!--<button v-on:click="say('River')">River</button>-->
             <br>
-            <router-link to="RiverRelinking" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>2. River Relinking</strong></h6></router-link>
+            <router-link to="Pachappu" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>2. Pachappu – small forest in urban spaces
+            </strong></h6></router-link>
              <br>
-            <router-link to="RiverConservation" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>3. River Conservation</strong></h6></router-link>
+            <router-link to="Thanal" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>3. Thanal - Green Belt
+            </strong></h6></router-link>
              <br>
-            <router-link to="PondRejuvenation" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>4. Pond Rejuvenation</strong>
+            <router-link to="Pachamuttam" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>4. Pachamuttam -  Multifunctional Homestead gardens
+            </strong>
                 </h6></router-link><br>
-             <router-link to="Domesticsolidwaste" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>5. Domestic Solid Waste Management</strong>
+             <router-link to="Ottamooli" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>5. Ottamooli- medicnal plants for home
+            </strong>
                 </h6></router-link><br>
-             <router-link to="" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>6. Household Sewage Treatment</strong>
+             <router-link to="Plantdiversity" style="text-decoration: none!important;"><h6 style="text-align: left!important;padding-left:20px!important;"><strong>6. Plant Diversity Awareness
+            </strong>
                 </h6></router-link>
                 <br>
                 <br>

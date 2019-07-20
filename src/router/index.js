@@ -21,7 +21,14 @@ import SoilsampleAnalysis from '@/components/SoilsampleAnalysis'
 import NutritionalAnalysis from '@/components/NutritionalAnalysis'
 import MicrobiologicalAnalysis from '@/components/MicrobiologicalAnalysis'
 import Toxicological from '@/components/Toxicological'
-
+import ThematicGardens from '@/components/ThematicGardens'
+import Pachappu from '@/components/Pachappu'
+import Thanal from '@/components/Thanal'
+import Pachamuttam from '@/components/Pachamuttam'
+import Ottamooli from '@/components/Ottamooli'
+import Plantdiversity from '@/components/Plantdiversity'
+import MushroomFarming from '@/components/MushroomFarming'
+import OrganicFarming from '@/components/OrganicFarming'
 Vue.use(Router)
 
 export default new Router({
@@ -133,6 +140,54 @@ export default new Router({
       path: '/Toxicological',
       name: 'Toxicological',
       component:Toxicological,
+    
+    },
+    {
+      path: '/ThematicGardens',
+      name: 'ThematicGardens',
+      component:ThematicGardens,
+    
+    },
+    {
+      path: '/Pachappu',
+      name: 'Pachappu',
+      component:Pachappu,
+    
+    },
+    {
+      path: '/Thanal',
+      name: 'Thanal',
+      component:Thanal,
+    
+    },
+    {
+      path: '/Pachamuttam',
+      name: 'Pachamuttam',
+      component:Pachamuttam,
+    
+    },
+    {
+      path: '/Ottamooli',
+      name: 'Ottamooli',
+      component:Ottamooli,
+    
+    },
+    {
+      path: '/Plantdiversity',
+      name: 'Plantdiversity',
+      component:Plantdiversity,
+    
+    },
+    {
+      path: '/MushroomFarming',
+      name: 'MushroomFarming',
+      component:MushroomFarming,
+    
+    },
+    {
+      path: '/OrganicFarming',
+      name: 'OrganicFarming',
+      component:OrganicFarming,
     
     },
     

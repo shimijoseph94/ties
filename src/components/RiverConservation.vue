@@ -11,7 +11,7 @@
               </div>
               <div class="col-md-3">
                   <div class="verticalLine">
-                      <h4 style="color:white!important;">Biodiversity Enhancement</h4>
+                    <router-link to="ThematicGardens" style="color:white!important;text-decoration: none!important;"> <h4 style="color:white!important;">Biodiversity Enhancement</h4></router-link>
                 </div> <br> <div class="horizontal" ></div><br>
                </div>
                   <div class="col-md-2">
