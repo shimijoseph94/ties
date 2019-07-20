@@ -148,7 +148,7 @@
                     <div><br>
                       <select name="" style="color:blue!important;">
                        <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
-                      <!-- <option value="">1. TIES Research Training </option>
+                       <option value="">1. TIES Research Training </option>
                        <option value="">Programme (TRTP)</option>
                        <option value="">2. College-NGO </option>
                        <option value="">Partnership Initiative (CNPI)</option>
@@ -157,7 +157,7 @@
                        <option value="">4. Enjoy Learning,
                         </option>
                         <option value="">Enjoy Teaching, Enjoy Life
-                          </option>-->
+                          </option>
                           
                      </select>
                      </div>
@@ -183,7 +183,7 @@
                    <div><br><br>
                     <select name="" style="color:blue!important;">
                      <option value="" ><h6 style="color:blue!important;">Know More</h6></option>
-                    <!--<option value="">1. River auditing</option>
+                    <option value="">1. River auditing</option>
                      <option value="">2. Biodiversity surveys
                       </option>
                      <option value="">3. Community biodiversity
@@ -203,7 +203,7 @@
                      <option value="">7. Environmental Toxicology
                       </option>
                       <option value="">8. Green Audit
-                        </option>-->
+                        </option>
 
                    </select>
                    </div>

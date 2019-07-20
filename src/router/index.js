@@ -16,6 +16,11 @@ import Donate from '@/components/Donate'
 import Services from '@/components/Services'
 import Watersampleanalysis from '@/components/Watersampleanalysis'
 import AntimicrobialTests from '@/components/AntimicrobialTests'
+import PhytochemicalAnalysis from '@/components/PhytochemicalAnalysis'
+import SoilsampleAnalysis from '@/components/SoilsampleAnalysis'
+import NutritionalAnalysis from '@/components/NutritionalAnalysis'
+import MicrobiologicalAnalysis from '@/components/MicrobiologicalAnalysis'
+import Toxicological from '@/components/Toxicological'
 
 Vue.use(Router)
 
@@ -98,6 +103,36 @@ export default new Router({
       path: '/AntimicrobialTests',
       name: 'AntimicrobialTests',
       component:AntimicrobialTests,
+    
+    },
+    {
+      path: '/PhytochemicalAnalysis',
+      name: 'PhytochemicalAnalysis',
+      component:PhytochemicalAnalysis,
+    
+    },
+    {
+      path: '/SoilsampleAnalysis',
+      name: 'SoilsampleAnalysis',
+      component:SoilsampleAnalysis,
+    
+    },
+    {
+      path: '/NutritionalAnalysis',
+      name: 'NutritionalAnalysis',
+      component:NutritionalAnalysis,
+    
+    },
+    {
+      path: '/MicrobiologicalAnalysis',
+      name: 'MicrobiologicalAnalysis',
+      component:MicrobiologicalAnalysis,
+    
+    },
+    {
+      path: '/Toxicological',
+      name: 'Toxicological',
+      component:Toxicological,
     
     },
     

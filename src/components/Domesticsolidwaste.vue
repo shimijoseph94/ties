@@ -3,23 +3,26 @@
         <div class="jj" style="padding-top:20px!important;padding-bottom:40px!important;">
             <h2 style="color: white!important;text-align: center!important;padding-top:20px!important;"><strong>Community Development</strong></h2>
            <br>
-            <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
-                <div class="col-md-3">
-                        <div class="verticalLine">
-                  <h4 style="color:darkgreen!important;padding-left:150px;">WASH</h4></div>  
-                </div>
-                <div class="col-md-3">
-                    <div class="verticalLine">
-                        <h4 style="color:white!important;">Biodiversity Enhancement</h4>
-                  </div>  </div>
-                    <div class="col-md-2">
-                            <div class="verticalLine">
-                            <h4 style="color:white!important;">Eco-Tourism</h4></div>
-                        </div>
-                        <div class="col-md-3">
-                                <h4 style="color:white!important;">Indian Snakebite Initiative</h4>
-                            </div>
-            </div>
+           <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
+              <div class="col-md-3">
+                      <div class="verticalLine">
+                <h4 style="color:darkgreen!important;"class="wash">WASH</h4></div><br>
+                <div class="horizontal" ></div><br>
+              </div>
+              <div class="col-md-3">
+                  <div class="verticalLine">
+                      <h4 style="color:white!important;">Biodiversity Enhancement</h4>
+                </div> <br> <div class="horizontal" ></div><br>
+               </div>
+                  <div class="col-md-2">
+                          <div class="verticalLine">
+                          <h4 style="color:white!important;">Eco-Tourism</h4>  </div> <br>
+                          <div class="horizontal" ></div><br>
+                      </div>
+                      <div class="col-md-3">
+                              <h4 style="color:white!important;">Indian Snakebite Initiative</h4>
+                          </div>
+          </div>
         </div>
         <!--2nd section-->
         <div class="container">
@@ -114,10 +117,7 @@
     .jj{
         background-color: #9ACD32!important;
     }
-    .verticalLine{
-    border-right: thick solid #006400 !important;
-  padding-right:20px!important;
-    }
+   
     .para {
   margin: 0;
     color: black!important;
@@ -151,5 +151,98 @@
   background-color: #84fb95;
   background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%); 
   }
+   @media only screen   
+and (min-device-width : 1000px)   
+and (max-device-width : 1500px)  
+{ 
+    .wash{
+    
+  padding-left:150px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 1501px)   
+and (max-device-width : 1700px)  
+{ 
+    .wash{
+   
+  padding-left:150px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 1701px)   
+and (max-device-width : 2000px)  
+{ 
+    .wash{
+    
+  padding-left:150px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 640px)   
+and (max-device-width : 1024px)  
+{ 
+    .verticalLine{
+    border-right: thick solid #006400 !important;
+  padding-right:20px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 1025px)   
+and (max-device-width : 1500px)  
+{ 
+    .verticalLine{
+    border-right: thick solid #006400 !important;
+  padding-right:20px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 1501px)   
+and (max-device-width : 1700px)  
+{ 
+    .verticalLine{
+    border-right: thick solid #006400 !important;
+  padding-right:20px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 1701px)   
+and (max-device-width : 2000px)  
+{ 
+    .verticalLine{
+    border-right: thick solid #006400 !important;
+  padding-right:20px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ 
+  .horizontal{
+    border: 2px solid#006400!important;
+        width: 300px;
+        height: 0px;
+  }
+}
+@media only screen   
+and (min-device-width : 481px)   
+and (max-device-width : 640px)  
+{ 
+  .horizontal{
+    border: 1px solid#006400!important;
+        width: 500px;
+        height: 0px;
+  }
+}
+@media only screen   
+and (min-device-width : 640px)   
+and (max-device-width : 768px)  
+{ 
+  .horizontal{
+    border: 1px solid#006400!important;
+        width: 500px;
+        height: 0px;
+  }
+}
   
   </style>

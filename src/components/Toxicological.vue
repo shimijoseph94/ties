@@ -48,7 +48,7 @@
                         
                 <div class="col-md-8" style="padding-top:30px!important;">
             
-                        <h4 style="color:black!important;text-align:left!important;"><strong>Antimicrobial Tests</strong></h4>
+                        <h4 style="color:black!important;text-align:left!important;"><strong>Toxicological Tests</strong></h4>
                 </div>
     
             

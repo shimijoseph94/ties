@@ -12,22 +12,27 @@
                 <div class="col-md-2">
                         <div class="verticalLine"> 
                             <router-link to="Corporate" style="text-decoration: none!important;">
-                  <h4 style="color:white!important;">Corporates</h4></router-link></div>  
+                  <h4 style="color:white!important;">Corporates</h4></router-link></div>
+                  <div class="horizontal" ></div><br>
                 </div>
                 <div class="col-md-2">
                     <div class="verticalLine">
                             <router-link to="IndividualPartnership" style="text-decoration: none!important;">
                         <h4 style="color:white!important;">Individuals</h4></router-link>
-                  </div>  </div>
+                  </div> 
+                  <div class="horizontal" ></div><br>
+                 </div>
                     <div class="col-md-2">
                             <div class="verticalLine">
                                     <router-link to="Internship" style="text-decoration: none!important;">
                             <h4 style="color:white!important;">Internships</h4></router-link></div>
+                            <div class="horizontal" ></div><br>
                         </div>
                         <div class="col-md-2">
                                 <div class="verticalLine">
                                         <router-link to="Volunteer" style="text-decoration: none!important;">
                                 <h4 style="color:white!important;">Volunteer</h4></router-link></div>
+                                <div class="horizontal" ></div><br>
                             </div>
                             <div class="col-md-1">
                                     <router-link to="Jobs" style="text-decoration: none!important;">
@@ -119,10 +124,7 @@
     .jj{
         background-color: #9ACD32!important;
     }
-    .verticalLine{
-    border-right: thick solid #006400 !important;
-  padding-right:10px!important;
-    }
+   
     .para {
   margin: 0;
     color: black!important;
@@ -169,5 +171,70 @@
   background-color: #84fb95;
 background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%); 
 }
-
+@media only screen   
+and (min-device-width : 640px)   
+and (max-device-width : 1024px)  
+{ 
+    .verticalLine{
+    border-right: thick solid #006400 !important;
+  padding-right:20px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 1025px)   
+and (max-device-width : 1500px)  
+{ 
+    .verticalLine{
+    border-right: thick solid #006400 !important;
+  padding-right:20px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 1501px)   
+and (max-device-width : 1700px)  
+{ 
+    .verticalLine{
+    border-right: thick solid #006400 !important;
+  padding-right:20px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 1701px)   
+and (max-device-width : 2000px)  
+{ 
+    .verticalLine{
+    border-right: thick solid #006400 !important;
+  padding-right:20px!important;
+    }
+}
+@media only screen   
+and (min-device-width : 320px)   
+and (max-device-width : 480px)  
+{ 
+  .horizontal{
+    border: 2px solid#006400!important;
+        width: 300px;
+        height: 0px;
+  }
+}
+@media only screen   
+and (min-device-width : 481px)   
+and (max-device-width : 640px)  
+{ 
+  .horizontal{
+    border: 2px solid#006400!important;
+        width: 500px;
+        height: 0px;
+  }
+}
+@media only screen   
+and (min-device-width : 640px)   
+and (max-device-width : 768px)  
+{ 
+  .horizontal{
+    border: 2px solid#006400!important;
+        width: 500px;
+        height: 0px;
+  }
+}
 </style>

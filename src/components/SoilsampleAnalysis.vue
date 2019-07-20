@@ -35,7 +35,7 @@
                           </div>  </div>
                             <div class="col-md-4">
                                    
-                                    <h4 style="color:white!important;padding-right:150px!important;">Toxicological Tests
+                                    <h4 style="color:white!important;padding-right:150px!important;">SoilSample Analysis
                                         </h4>
                                 </div>
                                
@@ -48,7 +48,7 @@
                         
                 <div class="col-md-8" style="padding-top:30px!important;">
             
-                        <h4 style="color:black!important;text-align:left!important;"><strong>Antimicrobial Tests</strong></h4>
+                        <h4 style="color:black!important;text-align:left!important;"><strong>Water sample analysis</strong></h4>
                 </div>
     
             
