@@ -29,6 +29,9 @@ import Ottamooli from '@/components/Ottamooli'
 import Plantdiversity from '@/components/Plantdiversity'
 import MushroomFarming from '@/components/MushroomFarming'
 import OrganicFarming from '@/components/OrganicFarming'
+import EnvironmentEducation from '@/components/EnvironmentEducation'
+import RiverAuditing from '@/components/RiverAuditing'
+import Reports from '@/components/Reports'
 Vue.use(Router)
 
 export default new Router({
@@ -188,6 +191,24 @@ export default new Router({
       path: '/OrganicFarming',
       name: 'OrganicFarming',
       component:OrganicFarming,
+    
+    },
+    {
+      path: '/EnvironmentEducation',
+      name: 'EnvironmentEducation',
+      component:EnvironmentEducation,
+    
+    },
+    {
+      path: '/RiverAuditing',
+      name: 'RiverAuditing',
+      component:RiverAuditing,
+    
+    },
+    {
+      path: '/Reports',
+      name: 'Reports',
+      component:Reports,
     
     },
     

@@ -8,7 +8,7 @@
           
           <b-nav-item href="#" class="mx-auto"></b-nav-item>
           <b-nav-item class="navt"  href="/" ><strong><div style="color:	#006400 !important;">HOME</div></strong></a></b-nav-item>
-         <b-nav-item  class="navvink"><router-link to="">RESOURCE CENTER</router-link></b-nav-item>
+         <b-nav-item  class="navvink"><router-link to="Reports">RESOURCE CENTER</router-link></b-nav-item>
           <b-nav-item  class="navvink"><router-link to="Services">SERVICES</router-link></b-nav-item>
           <b-nav-item  class="navvink"><router-link to="Corporate">PARTNER WITH US</router-link></b-nav-item>
          

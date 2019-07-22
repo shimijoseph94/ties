@@ -92,11 +92,11 @@
             <b-card no-body class="overflow-hidden" style="max-width: 540px;border-radius: 25px!important;">
               <b-row no-gutters>
                 <b-col md="6">
-                  <router-link to="" style="text-decoration: none!important;"> <b-card-img  :src="require('../assets/cap2.png')" class="rounded-0"></b-card-img>
+                  <router-link to="MushroomFarming" style="text-decoration: none!important;"> <b-card-img  :src="require('../assets/cap2.png')" class="rounded-0"></b-card-img>
               </router-link>  </b-col>
                 <b-col md="6">
-                  <router-link to="" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Capacity Building</strong></h6></router-link>
-                  <b-card-body> <router-link to="" style="text-decoration: none!important;">
+                  <router-link to="MushroomFarming" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Capacity Building</strong></h6></router-link>
+                  <b-card-body> <router-link to="MushroomFarming" style="text-decoration: none!important;">
                     <b-card-text class="cardd" style="font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Combining modern science and traditional Knowledge for sustainable lifestyles within communities while supporting income augmentation for a better quality of life.
                       
                     </b-card-text></router-link><br>
@@ -137,11 +137,11 @@
            <b-card no-body class="overflow-hidden" style="max-width: 540px;border-radius: 25px!important;">
              <b-row no-gutters>
                <b-col md="6">
-                <router-link to="" style="text-decoration: none!important;"> <b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
+                <router-link to="EnvironmentEducation" style="text-decoration: none!important;"> <b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
              </router-link>  </b-col>
                <b-col md="6">
                 <router-link to="" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:10px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Environment Education & Outreach</strong></h6></router-link>
-                 <b-card-body > <router-link to="" style="text-decoration: none!important;">
+                 <b-card-body > <router-link to="EnvironmentEducation" style="text-decoration: none!important;">
                    <div style="font-family:Verdana, Geneva, Tahoma, sans-serif!important; ">
                    <b-card-text class="cardd">Enabling communities,essentially youth, to develop a deeper understanding of environmental challenges, engage in problem solving and make informed decisions.
                     </b-card-text></div></router-link>
@@ -172,11 +172,11 @@
            <b-card no-body class="overflow-hidden" style="max-width: 540px;border-radius: 25px!important;">
              <b-row no-gutters>
                <b-col md="6">
-                <router-link to="" style="text-decoration: none!important;"><b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
+                <router-link to="RiverAuditing" style="text-decoration: none!important;"><b-card-img  :src="require('../assets/cap4.png')" class="rounded-0"></b-card-img>
               </router-link> </b-col>
                <b-col md="6">
-                <router-link to="" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Research & Development</strong></h6></router-link>
-                 <b-card-body><router-link to="" style="text-decoration: none!important;"> 
+                <router-link to="RiverAuditing" style="text-decoration: none!important;"> <h6 style="color:black!important;padding-top:20px!important;font-family:Verdana, Geneva, Tahoma, sans-serif!important;"><strong>Research & Development</strong></h6></router-link>
+                 <b-card-body><router-link to="RiverAuditing" style="text-decoration: none!important;"> 
                    <b-card-text class="cardd" style="font-family:Verdana, Geneva, Tahoma, sans-serif!important;">Conducting research and developmental programs on environmental issues and providing high-quality studies on environment, sanitation and public health.
                      
                    </b-card-text></router-link>

@@ -7,39 +7,36 @@
                 
                
                <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
-                <div class="col-md-4">
+                <div class="col-md-5">
                         <div class="verticalLine">
-                  <h4 style="color:white!important;padding-left:100px;">Mushroom Farming</h4></div>  
+                  <h5 style="color:white!important;padding-left:100px;">TIES Research Training Programme (TRTP)
+                </h5></div>  
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="verticalLine">
-                        <h4 style="color:white!important;">Statistical Design for Researchers and SPSS Training
-                        </h4>
+                        <h5 style="color:white!important;"> Enjoy Learning, Enjoy Teaching, Enjoy Life
+
+                        </h5>
                   </div>  </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                             
-                            <h4 style="color:white!important;">Apiculture</h4></div>
+                            <h5 style="color:white!important;">Junior Naturalist Course (JNC)
+                            </h5></div>
                         
                        
             </div>
-            
+            <br>
             <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
-                    <div class="col-md-4">
-                            <div class="verticalLine">
-                      <h4 style="color:white!important;padding-left:100px;">Organic Farming
-                        </h4></div>  
-                    </div>
-                    <div class="col-md-4">
-                        <div class="verticalLine">
-                            <h4 style="color:white!important;">Natural or Homestead Farming
-                                </h4>
-                      </div>  </div>
-                        <div class="col-md-4">
-                               
-                                <h4 style="color:white!important;padding-right:150px!important;">Balcony Gardens 
+                <div class="col-md-3">
+                </div>
+                    <div class="col-md-7">
+                            
+                      <h5 style="color:white!important;padding-left:100px;">College-NGO Partnership Initiative (CNPI)
 
-                                    </h4>
-                            </div>
+                        </h5>  
+                    </div>
+                   
+                        
                            
                 </div>
 
@@ -52,7 +49,7 @@
                         
                 <div class="col-md-12" style="padding-top:30px!important;">
             
-                        <h4 style="color:black!important;text-align:left!important;"><strong>Mushroom Farming</strong></h4>
+                        <h4 style="color:black!important;text-align:left!important;"><strong>Environment Educaion</strong></h4>
                <p class="para">Loreum ipsum Loreum ipsum Loreum ipsum Loreum ipsum Loreum ipsums Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesuada.</p>
                     </div>
     

@@ -1,64 +1,45 @@
 <template>
         <div>
             <div class="jj" style="padding-top:20px!important;padding-bottom:40px!important;">
-                <h2 style="color: white!important;text-align: center!important;padding-top:20px!important;"><strong>Services</strong></h2>
+                <h2 style="color: white!important;text-align: center!important;padding-top:20px!important;"><strong>Resource Centre</strong></h2>
                <br>
-               
-                
-               
-               <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
-                <div class="col-md-4">
-                        <div class="verticalLine">
-                  <h4 style="color:white!important;padding-left:100px;">Mushroom Farming</h4></div>  
-                </div>
-                <div class="col-md-6">
-                    <div class="verticalLine">
-                        <h4 style="color:white!important;">Statistical Design for Researchers and SPSS Training
-                        </h4>
-                  </div>  </div>
-                    <div class="col-md-2">
-                            
-                            <h4 style="color:white!important;">Apiculture</h4></div>
-                        
-                       
-            </div>
-            
-            <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
-                    <div class="col-md-4">
+                <div class="row" style="padding-left:20px!important;padding-right:20px!important;">
+                    <div class="col-md-3">
                             <div class="verticalLine">
-                      <h4 style="color:white!important;padding-left:100px;">Organic Farming
-                        </h4></div>  
+                      <h4 style="color:white!important;padding-left:100px;">Reports</h4></div>  
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="verticalLine">
-                            <h4 style="color:white!important;">Natural or Homestead Farming
-                                </h4>
+                            <h4 style="color:white!important;">Publications</h4>
                       </div>  </div>
-                        <div class="col-md-4">
-                               
-                                <h4 style="color:white!important;padding-right:150px!important;">Balcony Gardens 
-
-                                    </h4>
+                        <div class="col-md-3">
+                                <div class="verticalLine">
+                                <h4 style="color:white!important;">Products </h4></div>
                             </div>
-                           
+                            <div class="col-md-3">
+                                    <h4 style="color:white!important;padding-right:80px!important;">Wildlife Kits</h4>
+                                </div>
+                                
                 </div>
+                
+              
+                    <br>
 
-
+                
             </div>
             <!--2nd section-->
             <div class="container">
                 
                 <div class="row">
                         
-                <div class="col-md-12" style="padding-top:30px!important;">
+                <div class="col-md-8" style="padding-top:30px!important;">
             
-                        <h4 style="color:black!important;text-align:left!important;"><strong>Mushroom Farming</strong></h4>
-               <p class="para">Loreum ipsum Loreum ipsum Loreum ipsum Loreum ipsum Loreum ipsums Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesuada.</p>
+                        <h4 style="color:black!important;text-align:left!important;"><strong>River Auditing</strong></h4>
+               <p class="para">Loreum ipsum Loreum ipsum Loreum ipsum Loreum ipsum Loreum ipsums Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesu</p>
                     </div>
     
             
                 
-                              
 
                 </div>
     
